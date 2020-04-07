@@ -6,16 +6,16 @@ spring:
         druid:
             # 主库数据源
             master:
-                url: jdbc:mysql://118.24.87.233:3306/ry?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true
+                url: jdbc:mysql://rm-2zero0jek962v2th4ho.mysql.rds.aliyuncs.com:3306/substitute_driving?useSSL=false&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
                 username: root
-                password: Qq123456Aa
+                password: snail-retail0
             # 从库数据源
             slave:
                 # 从数据源开关/默认关闭
                 enabled: false
-                url: jdbc:mysql://118.24.87.233:3306/ry?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true
+                url: jdbc:mysql://rm-2zero0jek962v2th4ho.mysql.rds.aliyuncs.com:3306/substitute_driving?useSSL=false&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
                 username: root
-                password: Qq123456Aa
+                password: snail-retail0
             # 初始连接数
             initial-size: 10
             # 最大连接池数量
